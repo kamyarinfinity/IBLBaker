@@ -3,6 +3,7 @@ bin64/*.map
 bin64/*.pdb
 bin64/*.ilk
 bin64/Debug
+bin64/Release
 Build64/*
 lib/*
 data/meshes/pistol/pistol.obj
