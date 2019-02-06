@@ -427,7 +427,7 @@ IBLApplicationHUD::render(const Ctr::Camera* camera)
         {
             WCHAR selectedFilePathName[MAX_FILE_PATH_NAME];
             memset(selectedFilePathName, 0, MAX_FILE_PATH_NAME * sizeof(WCHAR));
-            WCHAR * filter = L"DirectDraw Surfaces(*.dds)\0*.dds\0\0";
+            WCHAR * filter = L"DirectDraw Surfaces(*.dds)\0*.dds\0HDR Radiance(*.hdr)\0*.hdr\0\0";
             if (Ctr::selectFilenameSave(_application->window()->windowHandle(),
                 selectedFilePathName, filter))
             {
